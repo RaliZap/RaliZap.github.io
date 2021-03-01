@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;	
+}
+
+section
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #FFFFFF;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(to right, #AA1215, #ffffff);
+}
+
+
+header .logo
+{
+	position: relative;
+	max-width: 50px;
+}
+
+header ul
+{
+	position: relative;
+	display: flex;
+}
+
+header ul li
+{
+	list-style: none;
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+
+.content
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 80px 0;
+}
+
+
+.content .textBox
+{
+	flex-basis: 60%;
+	position: relative;
+}
+
+.content .textBox h3
+{
+	color: #333333;
+	font-size: 2em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+
+.content .textBox h2
+{
+	color: #333333;
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+
+.content .textBox h2 span
+{
+	color: #AA1215;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.content .textBox p
+{
+	margin-top: 7px;
+	color: #333333;
+	font-size: 1em;
+}
+
+.content .textBox a
+{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: #AA1215;
+	color: #FFFFFF;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.content .textBox a:hover
+{
+	background: #333333;
+}
+
+
+.content .imgBox
+{
+	width: 600px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.content .imgBox img
+{
+	max-width: 70%;
+}
+
+.thumb
+{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.thumb li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.thumb li:hover
+{
+	transform: translateY(-15px);
+}
+
+.thumb li img
+{
+	max-width: 60px;
+}
+
+.circle
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #AA1215;
+	clip-path: circle(600px at right 900px);
+
+}
+
+	
+@media (max-width: 1192px) {
+	.content{
+		flex-direction: column;
+		margin: 30px 0;
+	}
+	.circle
+	{
+    top: 0;
+	left: 0;
+	clip-path: circle(550px at 50% 100%);
+	}
+
+}	
+
+
