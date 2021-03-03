@@ -370,9 +370,10 @@ p.lastlineinverse{
 	#introfix{
 	padding-inline-start: 20px;
 	padding-inline-end: 20px;
-	margin-left: 30%;
+	margin-left: 50%;
 	margin-top: -15px;
 	width: 60px;
+	height: 80px;
 	padding-bottom: 5px;
 	padding-top: 3px;
 	z-index: 100000;
