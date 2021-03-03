@@ -169,6 +169,7 @@ nav ul li ul li a{
 	color: #FFFFFF;
 	border: none;
 	cursor: pointer;
+	display: none;
 }
 
 
