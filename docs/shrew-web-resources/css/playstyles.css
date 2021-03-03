@@ -176,6 +176,9 @@ nav ul li ul li a{
 body {
 	font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 	background-color: silver;
+	margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
 }
 
 main {
