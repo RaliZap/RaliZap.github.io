@@ -380,7 +380,7 @@ p.lastlineinverse{
 	padding-top: 3px;
 	z-index: 100000;
 	height: fit-content;
-	margin-top: 0;
+	margin-top: -60px;
 	position: absolute;
 }
 	
