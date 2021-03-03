@@ -376,7 +376,7 @@ p.lastlineinverse{
 	padding-top: 3px;
 	z-index: 100000;
 	height: fit-content;
-	margin-top: 70%;
+	margin-top: 278px;
 }
 	ul.drop{
 	padding-inline-start: 20px;
@@ -553,6 +553,9 @@ p.lastlineinverse{
 	font-size: 15px;
 	width: 30px;
 	height: 30px;
+}
+	#introfix{
+	margin-top: 245px;
 }
 }
 
