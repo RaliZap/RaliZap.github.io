@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Taming of the Shrew: The Complete Play</title>
 		<link href="shrew-web-resources/css/playstyles.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 	<body id="shrew" lang="en-GB">
 		
@@ -46,7 +48,26 @@
 				drop.classList.toggle('active');
 			};
 			
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if($(this).scrollTop() > 40){
+						$('#topBtn').fadeIn();
+					} else{
+						$('#topBtn').fadeOut();
+					}
+				});
+				$("#topBtn").click(function(){
+					$('thml ,body').animate({scrollTop : 0},800);
+				});
+			});
 		</script>
+		
+		
+		<button id="topBtn"><i class="fas fa-chevron-circle-up"></i>
+
+</button>
+		
+		
 		
 	<main>
 		<section id="_idContainer002" class="dramatis">
