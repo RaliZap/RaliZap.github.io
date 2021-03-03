@@ -365,6 +365,11 @@ p.lastlineinverse{
 		margin-left: 22%;
 	}
 	
+	#introfix{
+	margin-left: 30%;
+	margin-top: -15px;
+	width: 60px;
+}
 	
 	ul.drop{
 	padding-inline-start: 20px;
