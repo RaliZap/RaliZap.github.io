@@ -161,10 +161,11 @@ nav ul li ul li a{
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
-	font-size: 22px;
+	font-size: 25px;
 	width: 50px;
 	height: 50px;
-	color: #FF4144;
+	background: #FF4144;
+	color: #FFFFFF;
 	border: none;
 	cursor: pointer;
 }
@@ -434,6 +435,13 @@ p.lastlineinverse{
 
 	}
 	
+	#topBtn{
+	bottom: 20px;
+	right: 20px;
+	font-size: 15px;
+	width: 30px;
+	height: 30px;
+}
 }
 
 
@@ -531,7 +539,13 @@ p.lastlineinverse{
 	margin-left: 40%;
 }
 	
-	
+	#topBtn{
+	bottom: 20px;
+	right: 20px;
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
+}
 }
 
 
